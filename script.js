@@ -156,7 +156,7 @@ payButton.addEventListener("click", async function () {
 
     // Step 1: create order on backend — wrapped in try/catch
     try {
-        let response = await fetch("http://localhost:3000/create-order", {
+        let response = await fetch(" https://ambuj-store.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
