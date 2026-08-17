@@ -181,7 +181,7 @@ payButton.addEventListener("click", async function () {
 
     // Step 2: open Razorpay checkout
     let options = {
-        key: "rzp_test_TQeLfRaA8kZPR2",
+        key: "rzp_live_T1Vfuq5Lfef4Nx",
         amount: order.amount,
         currency: "INR",
         name: "AMBUJ STORE",
